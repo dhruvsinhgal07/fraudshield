@@ -1,6 +1,15 @@
 services:
   - type: web
-    name: fraudshield-backend
+    name: fraudshield-backend-api
     env: python
+    region: singapore
+    plan: free
+
+    rootDir: backend
+
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app:app --host 0.0.0.0 --port 10000
+
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
