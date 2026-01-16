@@ -3,6 +3,5 @@ uvicorn
 pydantic
 mysql-connector-python
 scikit-learn
-passlib
+numpy
 python-jose[cryptography]
-bcrypt

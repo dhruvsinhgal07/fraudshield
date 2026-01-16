@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-pydantic
-mysql-connector-python
-scikit-learn
-passlib
-python-jose[cryptography]
-bcrypt
